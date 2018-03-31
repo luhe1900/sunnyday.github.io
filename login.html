@@ -1,243 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
-
-	<head>
-        <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<title>Lending hub</title>
-
-<!--	<meta property="og:title" content="Upturn" />-->
-<!--	<meta property="og:description" content="Upturn is building a world where technology promotes the dignity and well-being of all people." />-->
-<!--	<meta property="og:image" content="/static/img/upturn-logo.png" />-->
-
-        
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-        
-    <script type="text/javascript" src="static/js/password.js"></script>
-<!--	<link rel="stylesheet" href="/static/css/bootstrap.min.css">-->
-<!--	<link rel="stylesheet" href="static/css/upturn.custom.css">-->
-<!--	<link rel="shortcut icon" href="/static/img/favicon.ico">-->
-
-        
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-61037655-1');
-	</script>
-	
+<!--
+Template Name: Appsea
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>SuperLoan</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
-
-
-	<body>
-		<div class="container" style="max-width: 960px">
-			<nav class="navbar upturn-mods top-margin sticky-top navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="/">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav" style="padding-left: 1em; margin-top: 9px;">
-
-                        <a class="nav-item nav-link " href="index.html">Home page</a>
-                        <a class="nav-item nav-link " href="#">About</a>
-                        <a class="nav-item nav-link " href="#">Our Work</a>
-                        <a class="nav-item nav-link " href="#">Contact</a>
-                    </div>
-                </div>
-            </nav>
-
-			<!-- Carousel -->
-            <!--
-<div id="carouselExampleControls" class="carousel slide upturn-mods" data-ride="carousel" data-interval="7500">
-	<div class="carousel-inner">
-
-1
-        <div class="carousel-item active">
-			<img class="d-block w-100" src="/static/img/carousel/illusion.png" alt="Illusion of Accuracy">
-			<div class="carousel-caption upturn-mods d-md-block">
-				<h3 class="carousel-title">
-					<a href="https://www.teamupturn.org/reports/2017/the-illusion-of-accuracy" target="_blank" class="carousel-link">The Illusion of Accuracy</a>
-				</h3>
-				<p class="carousel-text">How body-worn camera footage can distort evidence.</p>
-			</div>
-		</div>
-
-2
-        <div class="carousel-item">
-			<img class="d-block w-100" src="/static/img/carousel/bail.jpg" alt="Gavel and document">
-			<div class="carousel-caption upturn-mods d-md-block">
-				<h3 class="carousel-title">
-					<a href="https://ssrn.com/abstract=3041622" target="_blank" class="carousel-link">
-						Pretrial risk assessment and bail reform
-					</a>
-				</h3>
-				<p class="carousel-text">New statistical tools are popular &mdash; but they aren't using the right data.</p>
-			</div>
-		</div>
-
-3
-        <div class="carousel-item">
-			<img class="d-block w-100" src="/static/img/carousel/online_loan.jpg" alt="Online payday loan">
-			<div class="carousel-caption upturn-mods d-md-block">
-				<h3 class="carousel-title">
-					<a href="https://www.teamupturn.org/reports/2015/led-astray" class="carousel-link">
-						The hidden world of online payday loans
-					</a>
-				</h3>
-				<p class="carousel-text">Read <a href="https://www.teamupturn.org/reports/2015/led-astray" target="_blank" class="carousel-link">the research</a> that helped spur tech companies to action.</p>
-			</div>
-		</div>
-
-4
-        <div class="carousel-item">
-			<img class="d-block w-100" src="/static/img/carousel/gerrymander.jpg" alt="Gerrymandering image">
-			<div class="carousel-caption upturn-mods d-md-block">
-				<h3 class="carousel-title">
-					<a href="https://medium.com/equal-future/when-drawing-a-line-is-hard-8d92d30c9044" target="_blank" class="carousel-link">Gerrymandering: When drawing a line is hard</a>
-				</h3>
-				<p class="carousel-text">Connecting the dots between math, technology and law.</p>
-			</div>
-		</div>
-		
-	</div>
-	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">SuperLoan</a></h1>
+    </div>
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a class="drop" href="#">Login</a>
+          <ul>
+            <li><a href="pages/gallery.html">Panel Company</a></li>
+            <li><a href="pages/full-width.html">Lender</a></li>
+            <li><a href="pages/sidebar-left.html">ABS Investor</a></li>
+          </ul>
+        </li>
+        <li><a class="drop" href="#">About Us</a>
+          <ul>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Team</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+    <!-- ################################################################################################ -->
+  </header>
 </div>
--->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 
-<div id="dialog" class="jumbotron jumbotron-fluid" style="background-color: white; margin-bottom: 0">    
-    <form onSubmit="return validateUser()" method="post">
-    
-        <div id="error" class="alert alert-danger" style="display:none">
-            <strong>Error!</strong> You have entered incorrect credentials. 
-        </div>
-    
-        <fieldset class="ui-helper-reset">
-            <br>
-                <div>Username</div>
-                <input type="text" name="name" id="name" value="" class="ui-widget-content ui-corner-all"><br>
-                <div>Password</div>
-                <input type="password" name="password" id="password" value="" class="ui-widget-content ui-corner-all"><br>
-        </fieldset>
-<!--        <input type="button" onClick="validateUser()" value="submit"/>-->
-        <input type="submit" value="Submit">
-    </form>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" style="background-color: black !important">
+  <div id="breadcrumb" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Lorem</a></li>
+      <li><a href="#">Ipsum</a></li>
+      <li><a href="#">Dolor</a></li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </div>
 </div>
 
-            
-<!--
-<div class="jumbotron jumbotron-fluid" style="background-color: #5BBCC9; color: #FBF9F3; margin-bottom: 0">
-	<div class="container" style="text-align: center;">
-		<h2>Our issues</h2>
-		<br />
-		<br />
-		<div style ="width: 90%; margin: 0 auto;">
-            <div class="services-icon">
-                <img class="w-100 services-icon-spacer" src="/static/img/town/spacer.svg">
-                <img class="w-100 services-icon-part services-icon-radio-tower" src="/static/img/town/radio-tower.svg">
-                <img class="w-100 services-icon-part services-icon-clouds is-moving" src="/static/img/town/clouds.svg">
-                <img class="w-100 services-icon-part" src="/static/img/town/building-4.svg">
-                <img class="w-100 services-icon-part" src="/static/img/town/building-3.svg">
-                <img class="w-100 services-icon-part" src="/static/img/town/building-2.svg">
-                <img class="w-100 services-icon-part" src="/static/img/town/building-1.svg">
-            </div>
-        </div>
-
-		<div class="container" style="width: 90%">
-			<div class="row">
-				<div class="col issue-header">
-					Criminal Justice
-				</div>
-				<div class="col issue-header">
-					Economic Opportunity
-				</div>
-				<div class="col issue-header">
-					Automated Decisions
-				</div>
-				<div class="col issue-header">
-					Police Technology
-				</div>
-				<div class="col issue-header">
-					Open and Secure Communications
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
--->
+<div id="dialog" class="jumbotron jumbotron-fluid" style="background-color: white; margin-bottom: 0;" align="center">    
+  <form onSubmit="return validateUser()" method="post">
     
+      <div id="error" class="alert alert-danger" style="display:none">
+          <strong>Error!</strong> You have entered incorrect credentials.
+      </div>
     
-<!--
-<div id="equal-future" class="jumbotron jumbotron-fluid" style="background-color: white; margin-bottom: 0">
-	<div class="container" style="max-width: 800px; text-align: center;">
-		<h2>Stay up to date</h2>
-		<br />        
-        
-        <img alt="Comment" align="left" style="min-width: 100px;"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABUCAYAAAAoEtHdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL9SURBVHhe7do9aBNhHMfxX1NpSzWNfaG1Wt9KKhVagqKCiOhSHAQ3JwfRRdBFB4sIKr4gigVBByk6OOiiIlIHHVwcdHBzdxUXHYTSNmkTff73nD4Xcon5txchd78PhN7zNGT48txLLtfyywDVLeX/pToxmBKDKTGYkg3G4364kC7uLPn9K3B8TKa8YeINZYHpT/7AccF+fANO7zMzDOYZ3ArcfecPHB7DlBhMicGUGEyJwZQYTInBlBhMicGUGEyJwZQYTInBlBhMicGUGEypPFjKDFv48l7SIoS747owB3yY8TbJ6EwDew/7A8cGk2a8NV0ppAsfFVAK31GpKgZTYjAlBlNiMCUGU2IwJQZTssF47RoupIu70l8sAF8+e5tktHcAw+P+wHHB5Pmwkzu8TTI2ZIEHH/2B44Lx+bByfD4sGgymxGBKDKbEYEoMpsRgSgymxGBKDKbEYEoMpsRgSgym9H9u78hnDmySDTtuBv0bgYuP/YHT+GCzP4Gz94E9h4BS0Z9sAqlWoKvHHziNCyYfu6oNOGdi7ZoIfRKmGTXmGPYn1uTDWMUS0QeTOIU8cP0FkNtv52ISS0QbTGK1dwK3XwPDY3YcM9EFkzilEnB+Gti2M1a7YVA0wSRO0ZwBp94C4+bEIWIYS6w8mKyqvvXArRlg82gsd8OglQWTVbW6C7j6DMjmYrsbBi0/mMTpGQDuvbcrLAGxxPKCycrq7gcuPQHSaxMTS+iDydebNRngzhtgaMTOJSSW0AWTA/y6LfZsmO6O/QE+TP3BCgv2wH7tOdA7mKjdMKi+YLIbju4Gbr4CMn12LoGxxL+DLS0CI+bKXe4NJXRVBdUOJl+i5WvO5afmQG/OhgmPJaoHk9W03eyGN14CbR3+JIUHm58FcgeAyUfmHeYtXFl/VQbLzwNHTgEXTKxMbyIvHWopD1ZcAg4eBU5cMavK/xdXVxkXLD8HTBwDzkyZ2VaGqsL+CBK8XOClQ03uVyOqS+VBn2piMCUGU2IwJQZTAX4DEknYgcMkek4AAAAASUVORK5CYII=" />
-        
-        
-		<div style="text-align: left; margin-left: 125px">
-			<p>Sign up for Equal Future, our weekly update on social justice and technology. We’ll share what we’re reading and why it matters.</p>
-			<div id="mc_embed_signup">
-				<form action="https://equalfuture.us7.list-manage.com/subscribe/post?u=10d58128048e680886e21359f&amp;id=92be680437" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<div id="mc_embed_signup_scroll" style="text-align: left">
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email here" required>
-						 real people should not fill this in and expect good things - do not remove this or risk form bot signups
-						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_10d58128048e680886e21359f_92be680437" tabindex="-1" value=""></div>
-						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
+      <fieldset class="ui-helper-reset">
+          <br>
+              <div>Username</div>
+              <input type="text" name="name" id="name" value="" class="ui-widget-content ui-corner-all"><br>
+              <div>Password</div>
+              <input type="password" name="password" id="password" value="" class="ui-widget-content ui-corner-all"><br>
+      </fieldset>
+<!--      <input type="button" onClick="validateUser()" value="submit"/>-->
+      <input type="submit" value="Submit">
+  </form>
 </div>
--->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 
 
-<footer>
-	<hr class="footer-break">
-	<div class="container">
-		<div class="row">
-			<div class="col">
-<!--				<img class="footer-logo" src="/static/img/footer-logo.svg" />-->
-				<div style="float: left; color: #666; margin-bottom: 4em;">
-					Upturn, Inc.<br />
-					1015 15th St NW, Suite 600<br />
-					Washington, DC 20005
-				</div>
-			</div>
-			<div class="col">
-				<div style="float: right;">
-					<a href="https://twitter.com/TeamUpturn">
-<!--                        <img class="twitter" src="/static/img/twitter.png" alt="Twitter">-->
-                        @TeamUpturn</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>	
-		</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h6 class="title">About US</h6>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Team</a></li>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Contact</h6>
+      <ul class="nospace linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+          Street Name &amp; Number, Town, Postcode/Zip
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +00 (123) 456 7890<br>
+          +00 (123) 456 7890</li>
+        <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
+        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Terms of use</h6>
+      <ul class="nospace linklist">
+        <li><a href="#">Fringilla nunc proin et lacus</a></li>
+        <li><a href="#">Vestibulum condimentum</a></li>
+        <li><a href="#">Donec condimentum tellus</a></li>
+        <li><a href="#">Placerat tristique etiam orci</a></li>
+        <li><a href="#">Euismod lacinia bibendum in</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">News</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h6 class="nospace font-x1"><a href="#">Erat sed aliquet auctor</a></h6>
+            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+            <p class="nospace">Felis laoreet porta at vitae mauris praesent vel risus&hellip;</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h6 class="nospace font-x1"><a href="#">Ultricies duis sed ex quis</a></h6>
+            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+            <p class="nospace">Volutpat orci vestibulum non placerat felis sed sollicitudin&hellip;</p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
 
 
-	</body>
+<!-->###styles  ##-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+      <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+      <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js "></script>
+      <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
+      <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css " type="text/css" rel="stylesheet">
+     
+      <link rel="stylesheet" href="static/css/Lending.hub.custom.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+      <script type="text/javascript" src="static/js/password.js"></script>
+
+
+</body>
+
 
 </html>

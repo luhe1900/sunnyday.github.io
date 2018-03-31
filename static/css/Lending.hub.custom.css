@@ -1,0 +1,58 @@
+
+
+table.dataTable thead th {
+	padding: 5px 3px;
+	background-color: grey;
+	font-size: 10px
+}
+
+
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 5px 3px;
+	font-size: 10px
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+	padding: 5px 3px;
+	background-color: gray;
+	font-size: 10px
+}
+
+#searchFields thead th {
+	padding: 5px 3px;
+	font-size: 10px
+}
+
+
+#searchFields tbody th, #searchFields tbody td {
+	padding: 5px 3px;
+	font-size: 10px
+}
+
+#searchFields tfoot th, #searchFields tfoot td {
+	padding: 5px 3px;
+	font-size: 10px
+}
+
+
+table thead th {
+	padding: 5px 3px;
+	font-size: 10px
+}
+
+
+table tbody th, #searchFields tbody td {
+	padding: 5px 3px;
+	font-size: 10px
+}
+
+table tfoot th, #searchFields tfoot td {
+	padding: 5px 3px;
+	font-size: 10px
+}
+
+
+#trustedLenderTable_wrapper, #availableLenderTable_wrapper {
+	padding-right: 40px
+
+}
